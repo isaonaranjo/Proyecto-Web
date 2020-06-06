@@ -1,0 +1,259 @@
+html, body {
+    font-size: 4px;
+    font-family: sans-serif;
+    height: 100%;
+}
+body {
+	background-color: rgb(241, 145, 200);
+}
+
+.Encabezado {
+    align-items: baseline;
+    background: url('images/Nubes.jpg');
+    display: flex;
+    justify-content: space-between;
+    width: 100%;    
+    overflow: auto;
+}
+
+.Encabezado__izquierdo {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Encabezado__derecho {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Encabezado .Encabezado__izquierdo {
+    align-items: baseline;
+}
+
+.Encabezado .Encabezado__derecho {
+    align-items: baseline;
+}
+
+.Titulo {
+    align-items: baseline;
+    color: #a00093;
+    font-size: 7rem;
+    font-weight: bold;
+    padding: 5rem 5rem 5rem 6rem;
+}
+
+
+.Confiable {
+    align-items: baseline;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.Confiable__imagen {
+    background: url('images/unlock.jpg') no-repeat;
+    padding: 2rem 1rem 5rem 1rem;
+    width: 5rem;
+}
+
+.Confiable__titulo {
+    color:  #a00093;
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.Usuario {
+    align-items: baseline;
+    display: inline-flex;
+    padding: 2rem 1rem 2rem 1rem;
+    font-size: 10rem;
+}
+
+.Usuario__imagen {
+    background: url('images/down_arrow.png') no-repeat;
+    padding: 1rem 2rem 3rem 0rem;
+    width: 10rem;
+}
+
+.Usuario__titulo {
+    align-items: baseline;
+    color: #00A09B;
+    font-size: 6rem;
+    font-weight: bold;
+    padding: 2rem 3rem 4rem 10rem;
+}
+
+.Contenido {
+    background: #f1f6f6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+.Paquetes .Paquetes__titulo {
+    color: #0f0f0f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    padding: 14rem 0rem 0rem 10rem;
+}
+
+.Paquetes {
+    background: #e48ac1;
+    border-radius: 2rem;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.5);
+	justify-content: space-between;
+	margin-right: 5rem;
+	margin-bottom: 0rem;
+	margin-left: 5rem;
+	margin-top: 10rem;
+}
+
+li{
+	color: #000000;
+	font-size: 4rem;
+	padding: 5rem 16rem 5rem 0rem;
+}
+
+h2 {
+	color: #da59c8;
+	font-size: 4rem;
+	font-family: Montserrat;
+	font-weight: bold;	
+	padding: 3rem 4rem 3rem 10rem;
+}
+
+.Agregar_paquete__imagen {
+    background: url('images/agregar_paquete.png') no-repeat;
+    justify-content: center;
+    padding: 10rem 10rem 10rem 50rem;
+}
+
+.Paquetes__pie_de_pagina h2 {
+    text-transform: uppercase;
+}
+
+.Contenido__principal {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    width: 100%
+}
+
+.Encabezado__contenido {
+    align-items: baseline;
+    border-bottom: 1px solid rgba(224, 90, 195, 0.144);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+    width: 100%;
+    overflow: auto;
+}
+
+.Editar__imagen {
+    background: url('images/editar.png') no-repeat;
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem 2rem 0rem 1rem;
+}
+
+.Eliminar__imagen {
+    background: url('images/editar.png') no-repeat;
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem 2rem 1rem 1rem;
+}
+
+.Encabezado__izquierdo h2 {
+    font-family: sans-serif;
+    font-size: 7rem;
+    height: 3rem;
+    width: 60rem;
+}
+
+.Encabezado__contenido .Encabezado__derecho div{
+    border-radius: 5rem;
+    border: 1px;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 3rem 6rem 3rem 6rem;
+}
+
+.Agregar__libro {
+    background: rgb(209, 11, 216);
+}
+
+.Agregar__categoria {
+    background: rgb(209, 11, 216);
+}
+
+.Idiomas {
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: flex-start;
+    padding: 15rem 0rem 5rem 1rem;
+    width: 100%;
+    overflow: auto;
+}
+
+.Idiomas h2 {
+    font-weight: bold;
+    padding: 0rem 3rem 0rem 8rem;
+}
+
+.Libros {
+    display: flex;
+    flex-direction: row;
+}
+
+.book {
+    border-radius: 2rem;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    overflow: hidden;
+    width: 226px;
+}
+
+.book__image {
+    background-position: center;;
+    background-size: cover;
+    height: 70rem
+}
+
+.book__footer {
+    background: white;
+    padding: 16px;
+    position: relative;
+}
+
+.book__title {
+    color: #000000;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.book__size {
+    color: #777777;
+    font-size: 3rem;
+}
+
+.book__actions {
+    bottom: 0;
+    height: 14rem;
+    position: absolute;
+    right: 0;
+    width: 12rem;
+}
