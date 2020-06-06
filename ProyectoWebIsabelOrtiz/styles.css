@@ -44,27 +44,6 @@ body {
     padding: 5rem 5rem 5rem 6rem;
 }
 
-
-.Confiable {
-    align-items: baseline;
-    display: flex;
-    flex-direction: row;
-}
-
-
-.Confiable__imagen {
-    background: url('images/unlock.jpg') no-repeat;
-    padding: 2rem 1rem 5rem 1rem;
-    width: 5rem;
-}
-
-.Confiable__titulo {
-    color:  #a00093;
-    font-size: 4rem;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
 .Usuario {
     align-items: baseline;
     display: inline-flex;
@@ -72,11 +51,6 @@ body {
     font-size: 10rem;
 }
 
-.Usuario__imagen {
-    background: url('images/down_arrow.png') no-repeat;
-    padding: 1rem 2rem 3rem 0rem;
-    width: 10rem;
-}
 
 .Usuario__titulo {
     align-items: baseline;
@@ -124,12 +98,6 @@ h2 {
 	font-family: Montserrat;
 	font-weight: bold;	
 	padding: 3rem 4rem 3rem 10rem;
-}
-
-.Agregar_paquete__imagen {
-    background: url('images/agregar_paquete.png') no-repeat;
-    justify-content: center;
-    padding: 10rem 10rem 10rem 50rem;
 }
 
 .Paquetes__pie_de_pagina h2 {
@@ -215,7 +183,7 @@ h2 {
     flex-direction: row;
 }
 
-.book {
+.bb {
     border-radius: 2rem;
     box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
     display: block;
@@ -227,30 +195,30 @@ h2 {
     width: 226px;
 }
 
-.book__image {
+.bb__image {
     background-position: center;;
     background-size: cover;
     height: 70rem
 }
 
-.book__footer {
+.bb__footer {
     background: white;
     padding: 16px;
     position: relative;
 }
 
-.book__title {
+.bb__title {
     color: #000000;
     font-size: 3rem;
     font-weight: bold;
 }
 
-.book__size {
+.bb__size {
     color: #777777;
     font-size: 3rem;
 }
 
-.book__actions {
+.bb__actions {
     bottom: 0;
     height: 14rem;
     position: absolute;
